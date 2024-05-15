@@ -1,0 +1,178 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.App {
+  background-color: #0c1e32;
+  font-family: "Jeju Hallasan", cursive;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.counter {
+  color: transparent;
+  background: linear-gradient(180deg, #3de1eb 0%, #de1d1d 100%);
+  background-clip: text;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 400;
+  animation: fadeIn 0.5s ease;
+}
+
+.button_plus {
+  font-family: "Jeju Hallasan", cursive;
+  border-radius: 10px;
+  border: 0;
+  background: linear-gradient(180deg, #18f105 0%, #0e2a0c 100%);
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  width: 141px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.button_minus {
+  font-family: "Jeju Hallasan", cursive;
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  width: 141px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0px solid #000;
+  background: linear-gradient(180deg, #f00707 0%, #411010 100%);
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.btns {
+  gap: 500px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+.button_reset {
+  font-family: "Jeju Hallasan", cursive;
+  border-radius: 10px;
+  border: 0;
+  background: linear-gradient(180deg, #f7fc00 0%, #0e2a0c 100%);
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  width: 98px;
+  height: 45px;
+  position: absolute;
+  right: 421px;
+  top: 0;
+  cursor: pointer;
+  z-index: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.settings {
+  position: absolute;
+  top: -196px;
+  right: 447px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.save {
+  position: absolute;
+  top: -152px;
+  right: 447px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.finish {
+  width: 324px;
+  height: 45px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1128f2 0%, #1b0202 100%);
+  color: #fff;
+  font-size: 25px;
+  font-family: "Jeju Hallasan", cursive;
+  border: 0;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.achievement {
+  border-radius: 20px;
+  background: linear-gradient(180deg, #dbcbef 0%, #110512 100%);
+  width: 424px;
+  height: 127px;
+  position: fixed;
+  bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  right: 20px;
+}
+.achievement__title {
+  color: #ff0624;
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
+.achievement__item {
+  color: #fff;
+  font-size: 24px;
+}
+.win {
+  width: 783px;
+  height: 534px;
+  background: linear-gradient(180deg, #2e0f87 0%, #6ec1b7 100%);
+  border: 10px;
+  padding: 103px 47px 54px 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 228;
+  position: absolute;
+  top: 96px;
+  right: 397px;
+}
+.win__text {
+  color: #fff;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 40px;
+}
+.quit {
+  width: 272px;
+  height: 110px;
+  font-size: 80px;
+  font-family: "Jolly Lodger", cursive;
+  border-radius: 50px;
+  color: #fff;
+  border: 0;
+  background: linear-gradient(180deg, #f00 0%, #e7750d 100%);
+  margin-right: 143px;
+  cursor: pointer;
+}
+.playMore {
+  border: 0;
+  cursor: pointer;
+  width: 272px;
+  height: 110px;
+  color: #fff;
+  font-size: 80px;
+  font-family: "Jolly Lodger", cursive;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #d9c721 0%, #05f147 100%);
+}

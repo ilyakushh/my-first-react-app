@@ -1,0 +1,31 @@
+.game {
+  position: absolute;
+  top: -207px;
+  right: 380px;
+  width: 783px;
+  height: 534px;
+  background: linear-gradient(180deg, #1c48e3 0%, #870f0f 100%);
+  border-radius: 10px;
+  padding: 31px 47px 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+.game p {
+  color: #fff;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 40px;
+}
+.game button {
+  color: #fff;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 90px;
+  width: 397px;
+  height: 114px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  background: linear-gradient(180deg, #d9c721 0%, #05f147 100%);
+}

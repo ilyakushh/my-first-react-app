@@ -1,0 +1,82 @@
+.block {
+  width: 539px;
+  height: 281px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #c92e2e 0%, #23a7a7 100%);
+  padding: 28px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: -108px;
+  right: 424px;
+  z-index: 5;
+}
+.text {
+  color: #fff;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+.input {
+  width: 415px;
+  height: 47px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0;
+  font-size: 30px;
+  font-family: "Jolly Lodger", cursive;
+}
+.input:focus {
+  outline-color: blue;
+  font-size: 30px;
+  font-family: "Jolly Lodger", cursive;
+}
+.input::placeholder {
+  font-family: "Jolly Lodger", cursive;
+  font-size: 30px;
+}
+.input[type="number"]::-webkit-inner-spin-button,
+.input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.btns {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  font-size: 40px;
+  font-family: "Jolly Lodger", cursive;
+  color: #fff;
+  width: 152px;
+  height: 45px;
+  border-radius: 10px;
+  background: #ec0e0e;
+  border: 0;
+  cursor: pointer;
+}
+.submit {
+  font-size: 40px;
+  font-family: "Jolly Lodger", cursive;
+  color: #fff;
+  width: 152px;
+  height: 45px;
+  border-radius: 10px;
+  background: #3bec0e;
+  border: 0;
+  cursor: pointer;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 50px;
+  cursor: pointer;
+}

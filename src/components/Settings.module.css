@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+
+.settings {
+  font-family: "Jolly Lodger", cursive;
+  color: #fff;
+  background: linear-gradient(180deg, #24e5b6 0%, #a64490 100%);
+  width: 783px;
+  height: 534px;
+  position: absolute;
+  top: -210px;
+  right: 380px;
+  border-radius: 10px;
+  z-index: 1;
+}
+.blur {
+  filter: blur(5px);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 55px;
+}
+.title {
+  color: #000;
+  text-align: center;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 400;
+}
+.close {
+  font-size: 79px;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  padding-left: 22px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.btn_title {
+  width: 211px;
+  height: 67px;
+  color: #fff;
+  font-size: 60px;
+  border-radius: 10px;
+  background: #0339f6;
+  margin-right: 147px;
+}
+.active {
+  width: 120px;
+  height: 67.5px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 60px;
+  border: 0;
+  font-family: "Jolly Lodger", cursive;
+  gap: 28px;
+  cursor: pointer;
+}
+.active:first-child {
+  margin-right: 42px;
+}
+.on {
+  background: #3bec0e;
+}
+.off {
+  background: #f00;
+}
+.steps {
+  margin-right: 105px;
+}
+.btn_x {
+  width: 69px;
+  height: 67px;
+  margin-right: 33px;
+  color: #fff;
+  font-family: "Jolly Lodger", cursive;
+  font-size: 60px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+.x2 {
+  background: #3bec0e;
+}
+.x5 {
+  background: #7d0eec;
+}
+.x10 {
+  background: #ec0ec9;
+}
+.xsmg {
+  background: #ec0e0e;
+}
